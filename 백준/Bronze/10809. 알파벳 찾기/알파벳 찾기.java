@@ -12,9 +12,7 @@ public class Main {
         for (int i = 0; i < word.length(); i++) {
             char w = word.charAt(i);
             int index = w - 'a';
-            if (alphabetIndex[index] == -1) {
-                alphabetIndex[index] = i;
-            }
+            alphabetIndex[index] = i;
         }
 
         for (int i = 0; i < 26; i++) {
